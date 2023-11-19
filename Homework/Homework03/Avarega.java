@@ -1,4 +1,4 @@
-package Homework02;
+package Homework03;
 
 public class Avarega {
     public static void main(String[] args) {

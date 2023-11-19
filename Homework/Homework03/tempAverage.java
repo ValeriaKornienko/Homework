@@ -1,4 +1,4 @@
-package Homework02;
+package Homework03;
 
 public class tempAverage {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class tempAverage {
         double day5 = 10.6;
         double day6 = 7.2;
         double day7 = 8.0;
-        int numberDays = 7;
+        double numberDays = 7.0;
         double sum = day1 + day2 + day3 + day4 + day5 + day6 + day7;
         double average = sum / numberDays;
 
