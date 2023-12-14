@@ -2,7 +2,7 @@ package Phone;
 
 public class Phone {
 
-    private SimCard simCard;
+    private SimCard[] simCard;
     private int imei;
     private String model;
     private Cover cover;

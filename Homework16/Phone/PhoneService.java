@@ -2,9 +2,9 @@ package Phone;
 
 public class PhoneService {
 
-    public boolean insertSimCard(Phone phone, SimCard simCard){
-        if(simCard.getNumber() != 0){
-            phone.setSimCard(simCard);
+    public boolean insertSimCard(Phone phone, SimCard[] simCard, int numberOfSIm){
+        if(simCards[numberOfSim].getNumber() != 0){
+            phone.setSimCard(simCards[numberOfSim]);
             return true;
         }else{
             return false;
@@ -65,10 +65,9 @@ public class PhoneService {
     }
 
     public void adCover(Phone phone, Cover cover) {
-        if (cover.getColor() != null && cover.getMaterial() != null) {
-            phone.setCover(cover);
-        } else {
-        }
+        phone.getCover().setColor();
+        phone.getCover().setMaterial();
+
     }
 
 

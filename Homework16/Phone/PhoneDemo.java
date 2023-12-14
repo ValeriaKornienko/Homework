@@ -23,8 +23,6 @@ public class PhoneDemo {
         phoneService1.receivesSms(phone1, "Hello World10!");
 
 
-        phoneService1.removeSimCard(phone1);
-
         System.out.println(phone1);
 
     }
