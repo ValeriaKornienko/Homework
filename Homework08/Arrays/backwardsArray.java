@@ -1,11 +1,13 @@
 package Arrays;
  import java.util.Arrays;
 public class backwardsArray {
-    public static void main(String[] args) {
-        int[] originalArray = {1, 2, 3, 4};
+    public int[] reverseArray(int[] workingArray){
+        int[] reverseArray = new int[workingArray.length];
+        for (int i = 0; i < reverseArray.length; i++) {
+            int j = reverseArray.length - 1 - i;
+            reverseArray[i] = workingArray[j];
 
-
-
-
+        }
+        return reverseArray;
     }
 }
