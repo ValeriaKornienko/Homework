@@ -1,4 +1,4 @@
-package Homework5.Pizza;
+package Homework5;
 
 public class MathMethods {
 

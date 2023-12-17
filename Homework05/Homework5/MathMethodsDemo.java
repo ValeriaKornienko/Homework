@@ -1,7 +1,7 @@
-package Homework5.Pizza;
+package Homework5;
 import java.util.Scanner;
 public class MathMethodsDemo {
-    public static void main(String[] args) {
+    public static void main(Name[] args) {
         MathMethods test = new MathMethods();
         Scanner input = new Scanner(System.in);
 

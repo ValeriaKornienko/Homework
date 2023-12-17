@@ -1,7 +1,7 @@
-package Homework5.Pizza;
+package Homework5;
 
 public class PizzaArea {
-    public static void main(String[] args) {
+    public static void main(Name[] args) {
         double pizza24 = 24;
         double radiusPizza24 = pizza24 / 2;
         double areaPizza24 = Math.PI * radiusPizza24 * radiusPizza24;
