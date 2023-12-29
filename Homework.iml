@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Exercises" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Homework03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Homework04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Homework05" isTestSource="false" />
@@ -12,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Homework08" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Books" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Homework02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Homework11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Homework15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Homework18" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
