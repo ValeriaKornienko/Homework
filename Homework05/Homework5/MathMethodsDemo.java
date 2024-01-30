@@ -5,7 +5,7 @@ public class MathMethodsDemo {
         MathMethods test = new MathMethods();
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter the first number: ");
+        System.out.println("Please enter the translation number: ");
         int x = input.nextInt();
 
         System.out.println("Please enter the second number: ");

@@ -4,7 +4,7 @@ public class NewWord {
     public static void main(String[] args) {
         UserWordInput ui = new UserWordInput();
 
-        String word1 = ui.userWordInput("Please enter first word:");
+        String word1 = ui.userWordInput("Please enter translation word:");
         String word2 = ui.userWordInput("Please enter second word:");
 
         int word1length = word1.length()/2 ;

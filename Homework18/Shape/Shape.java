@@ -15,6 +15,6 @@ abstract class Shape {
         this.title = title;
 
     }
-    abstract double calculatorArea();
-    abstract double calculatorPerimeter();
+    abstract void calculatorArea();
+    abstract void calculatorPerimeter();
 }

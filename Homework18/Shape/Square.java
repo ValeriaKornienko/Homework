@@ -9,12 +9,14 @@ public class Square extends Shape{
     }
 
     @Override
-    double calculatorArea() {
-        return sideA * sideA;
+    void calculatorArea() {
+        double area = sideA * sideA;
+        System.out.println("Area of the square = " + area);
     }
 
     @Override
-    double calculatorPerimeter() {
-        return 4 * sideA;
+    void calculatorPerimeter() {
+        double perimeter = 4 * sideA;
+        System.out.println("Perimeter of the square = " + perimeter);
     }
 }

@@ -12,12 +12,14 @@ public class Rectangle extends Shape{
     }
 
     @Override
-    double calculatorArea() {
-        return sideA * sideB;
+    void calculatorArea() {
+        double area =  sideA * sideB;
+        System.out.println("Area of the rectangle = " + area);
     }
 
     @Override
-    double calculatorPerimeter() {
-        return 2 * (sideA + sideB);
+    void calculatorPerimeter() {
+        double perimeter = 2 * (sideA + sideB);
+        System.out.println("Perimeter of the rectangle = " + perimeter);
     }
 }

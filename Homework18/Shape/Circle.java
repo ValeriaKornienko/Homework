@@ -1,7 +1,7 @@
 package Shape;
 
 public class Circle extends Shape{
-    private final double radius;
+    private double radius;
 
     public Circle(String title, double radius) {
         super(title);
@@ -9,13 +9,15 @@ public class Circle extends Shape{
     }
 
     @Override
-    double calculatorArea() {
-        return Math.PI * radius * radius;
+    void calculatorArea() {
+        double area = Math.PI * radius * radius;
+        System.out.println("Area of the circle = " + area);
     }
 
     @Override
-    double calculatorPerimeter() {
-        return 2 * Math.PI * radius;
+    void calculatorPerimeter() {
+        double perimeter = 2 * Math.PI * radius;
+        System.out.println("Perimeter of the circle = " + perimeter);
 
     }
 }
