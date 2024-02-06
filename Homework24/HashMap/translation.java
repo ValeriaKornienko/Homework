@@ -18,5 +18,8 @@ public class translation {
         String word = scanner1.nextLine();
         System.out.println(translate.get(word));
 
+        translate.remove("book");
+        System.out.println(translate);
+
     }
 }
